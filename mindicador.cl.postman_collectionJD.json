@@ -12,8 +12,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Response time is less than 3000ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(3000);",
+							"pm.test(\"Response time is less than 5000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(5000);",
 							"});",
 							"pm.test(\"Body matches string fecha\", function () {",
 							"    pm.expect(pm.response.text()).to.include(\"fecha\");",
